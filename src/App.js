@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Sidebar from "./components/sidebar/Sidebar";
+import Topbar from "./components/topbar/Topbar";
+import Home from "./pages/Home/Home";
+import Leaderbord from "./pages/leaderbord/Leaderbord";
+import LearnDao from "./pages/learnDao/LearnDao";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Topbar></Topbar>
+      <Sidebar></Sidebar>
+      <Leaderbord></Leaderbord>
+      <Home></Home>
+      <LearnDao></LearnDao>
     </div>
   );
 }
