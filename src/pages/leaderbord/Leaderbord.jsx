@@ -22,7 +22,13 @@ const Leaderbord = () => {
             <img className="img" src={curElem.img} alt="" />
             <h1>{curElem.name}</h1>
             <h1>{curElem.aum}</h1>
-            <h1>{curElem.category}</h1>
+            <h1>{curElem.twl}</h1>
+            <h1>Ethereum</h1>
+            <h1>
+              <p>Social</p>
+              <p>Grants</p>
+            </h1>
+            <h1>Logo</h1>
           </div>
         );
       })}

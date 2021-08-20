@@ -1,0 +1,15 @@
+.learnDao {
+  background-color: beige;
+}
+.learnDao h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* color: beige; */
+}
+.boxTop {
+  display: flex;
+}
+.boxMiddle {
+  display: flex;
+}

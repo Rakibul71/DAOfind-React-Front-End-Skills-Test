@@ -1,4 +1,6 @@
 import "./App.css";
+import NewDao from "./components/newDao/NewDao";
+import Resources from "./components/resources/Resources";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/Home/Home";
@@ -10,9 +12,11 @@ function App() {
     <div className="App">
       <Topbar></Topbar>
       <Sidebar></Sidebar>
-      <Leaderbord></Leaderbord>
-      <Home></Home>
-      <LearnDao></LearnDao>
+      {/* <Leaderbord></Leaderbord> */}
+      {/* <Home></Home> */}
+      {/* <LearnDao></LearnDao> */}
+      {/* <NewDao></NewDao> */}
+      <Resources></Resources>
     </div>
   );
 }
