@@ -1,3 +1,10 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
   background: linear-gradient(95.81deg, #4cb8ff 2.29%, #4685ff 61.39%);
 }
+/* .App {
+} */

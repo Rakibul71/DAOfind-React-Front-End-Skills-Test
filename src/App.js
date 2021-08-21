@@ -20,7 +20,7 @@ function App() {
       {/* <NewDao></NewDao> */}
       {/* <Resources></Resources> */}
       {/* <DaoRight></DaoRight> */}
-      <PeopleInfo></PeopleInfo>
+      {/* <PeopleInfo></PeopleInfo> */}
     </div>
   );
 }
