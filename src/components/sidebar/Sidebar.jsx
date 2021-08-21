@@ -4,29 +4,35 @@ import "./sidebar.css";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="sidebarFontawesome">
-        <i className="fas fa-home"></i>
-        <p>Leaderbord</p>
-      </div>
-      <div className="sidebarFontawesome">
-        <i className="fas fa-columns"></i>
-        <p>Dashboard</p>
-      </div>
-      <div className="sidebarFontawesome">
-        <i className="fas fa-users"></i>
-        <p>People</p>
-      </div>
-      <div className="sidebarFontawesome">
-        <i className="fas fa-book-open"></i>
-        <p>Learn</p>
-      </div>
-      <div className="sidebarFontawesome">
-        <i className="fas fa-cart-plus"></i>
-        <p>Sponsor</p>
-      </div>
-      <div className="sidebarFontawesome">
-        <i className="fas fa-dollar-sign"></i>
-        <p>Earn</p>
+      <div className="sidebarWrapper">
+        <div className="sidebarMenu">
+          <ul className="sidebarList">
+            <li className="sidebarListItem">
+              <i className="fas fa-home"></i>
+              <p>Leaderbord</p>
+            </li>
+            <li className="sidebarListItem">
+              <i className="fas fa-columns"></i>
+              <p>Dashboard</p>
+            </li>
+            <li className="sidebarListItem">
+              <i className="fas fa-users"></i>
+              <p>People</p>
+            </li>
+            <li className="sidebarListItem">
+              <i className="fas fa-book-open"></i>
+              <p>Learn</p>
+            </li>
+            <li className="sidebarListItem">
+              <i className="fas fa-cart-plus"></i>
+              <p>Sponsor</p>
+            </li>
+            <li className="sidebarListItem">
+              <i className="fas fa-dollar-sign"></i>
+              <p>Earn</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

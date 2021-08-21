@@ -8,20 +8,28 @@ import Home from "./pages/Home/Home";
 import Leaderbord from "./pages/leaderbord/Leaderbord";
 import LearnDao from "./pages/learnDao/LearnDao";
 import PeopleInfo from "./pages/peopleInfoDao/PeopleInfo";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Topbar></Topbar>
-      <Sidebar></Sidebar>
-      {/* <Leaderbord></Leaderbord> */}
+      <div className="boxContainer">
+        <Sidebar></Sidebar>
+        <Switch>
+          <Route exact path="/">
+            <Leaderbord></Leaderbord>
+          </Route>
+        </Switch>
+      </div>
+
       {/* <Home></Home> */}
       {/* <LearnDao></LearnDao> */}
       {/* <NewDao></NewDao> */}
       {/* <Resources></Resources> */}
       {/* <DaoRight></DaoRight> */}
       {/* <PeopleInfo></PeopleInfo> */}
-    </div>
+    </Router>
   );
 }
 

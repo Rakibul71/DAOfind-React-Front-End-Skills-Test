@@ -1,3 +1,43 @@
+.leaderBoard {
+  display: flex;
+}
+.leaderBoardLeft {
+  background-color: #ffffff;
+  margin-left: 25px;
+  padding: 20px;
+}
+.dynamic {
+  border: 1px solid #e3e3e3;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dynamic img {
+  border-radius: 50%;
+}
+.dynamicElement {
+  margin-right: 10px;
+}
+.leaderBoardRight {
+  /* background-color: #ffffff; */
+  margin-left: 45px;
+  /* padding: 20px; */
+}
+.leaderBoardNew {
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.leaderBoardResources {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-top: 15px;
+}
+.leaderBoard h1 {
+  text-align: center;
+}
 .img {
   width: 50px;
   height: 50px;

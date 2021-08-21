@@ -5,33 +5,33 @@ const Resources = () => {
   return (
     <div className="resources">
       <div className="top">
-        <h3>Resources</h3>
-        <button>New</button>
+        <h5>Resources</h5>
+        <button className="btn btn-success"> New </button>
       </div>
       <div className="item">
         <div className="itemLeft">
-          <h3>Gamefied DAOs</h3>
-          <p>NFTs</p>
+          <h5>Gamefied DAOs</h5>
+          <button className="resourceButton">NFTs</button>
         </div>
-        <p>LOgo</p>
-      </div>
-
-      {/* add another */}
-      <div className="item">
-        <div className="itemLeft">
-          <h3>History of DAOs</h3>
-          <p>Biz-Dev</p>
-        </div>
-        <p>LOgo</p>
+        <p className="resourceLogo">LOgo</p>
       </div>
 
       {/* add another */}
       <div className="item">
         <div className="itemLeft">
-          <h3>Boilerplate Code</h3>
-          <p>Development</p>
+          <h5>History of DAOs</h5>
+          <button className="resourceButton">Biz-Dev</button>
         </div>
-        <p>LOgo</p>
+        <p className="resourceLogo">LOgo</p>
+      </div>
+
+      {/* add another */}
+      <div className="item">
+        <div className="itemLeft">
+          <h5>Boilerplate Code</h5>
+          <button className="resourceButton">Development</button>
+        </div>
+        <p className="resourceLogo">LOgo</p>
       </div>
     </div>
   );

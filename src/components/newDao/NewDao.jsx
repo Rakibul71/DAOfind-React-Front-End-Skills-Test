@@ -4,7 +4,7 @@ import "./newDao.css";
 const NewDao = () => {
   return (
     <div className="newDao">
-      <h3>Newly Listed DAOs</h3>
+      <h5>Newly Listed DAOs</h5>
       <div className="person">
         <div className="img">
           <img
@@ -13,7 +13,7 @@ const NewDao = () => {
           />
         </div>
         <div className="info">
-          <h3>PartyDAO</h3>
+          <h6>PartyDAO</h6>
           <p>$13,000,000 aum</p>
           <div className="bottom">
             <p>added 1 day ago</p>
@@ -31,7 +31,7 @@ const NewDao = () => {
           />
         </div>
         <div className="info">
-          <h3>PartyDAO</h3>
+          <h6>PartyDAO</h6>
           <p>$13,000,000 aum</p>
           <div className="bottom">
             <p>added 1 day ago</p>
@@ -40,7 +40,9 @@ const NewDao = () => {
         </div>
       </div>
 
-      <button>+ ADD DAO</button>
+      <div className="newButton">
+        <button>+ ADD DAO</button>
+      </div>
     </div>
   );
 };

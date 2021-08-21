@@ -19,14 +19,12 @@
   align-items: center;
 }
 .LogoPart h1 {
-  font-size: 55px;
+  font-size: 45px;
   color: #ffffff;
 }
 .span {
   background-color: #ffffff !important;
   color: blue;
-  /* z-index: -1; */
-  /* border */
 }
 
 .wallet {
