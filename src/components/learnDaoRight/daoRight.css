@@ -1,0 +1,13 @@
+.top {
+  display: flex;
+  flex-direction: column;
+}
+.topInfo {
+  display: flex;
+}
+.middleInfo {
+  display: flex;
+}
+.bottomInfo {
+  display: flex;
+}
