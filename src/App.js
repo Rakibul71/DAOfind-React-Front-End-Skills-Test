@@ -20,15 +20,20 @@ function App() {
           <Route exact path="/">
             <Leaderbord></Leaderbord>
           </Route>
+          <Route path="/learnDao">
+            <LearnDao></LearnDao>
+          </Route>
+          <Route path="/peopleInfo">
+            <PeopleInfo></PeopleInfo>
+          </Route>
         </Switch>
       </div>
 
       {/* <Home></Home> */}
-      {/* <LearnDao></LearnDao> */}
+      <LearnDao></LearnDao>
       {/* <NewDao></NewDao> */}
       {/* <Resources></Resources> */}
       {/* <DaoRight></DaoRight> */}
-      {/* <PeopleInfo></PeopleInfo> */}
     </Router>
   );
 }
