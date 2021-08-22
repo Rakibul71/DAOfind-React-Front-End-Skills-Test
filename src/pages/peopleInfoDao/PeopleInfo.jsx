@@ -29,7 +29,9 @@ const PeopleInfo = () => {
             <p>Social</p>
             <p>Grants</p>
           </h4>
-          <h4>Logo</h4>
+          <h3 className="dynamicElement glob">
+            <i class="fas fa-globe"></i>
+          </h3>
         </div>
 
         {/* start middle part */}
@@ -38,12 +40,22 @@ const PeopleInfo = () => {
           <div className="peopleInfoMiddleLeft">
             <div className="middleLeftTop">
               <div className="middleTopSocial">
-                <p>Love logo</p>
+                <p>
+                  <i class="fas fa-heart"></i>
+                </p>
                 <p>100</p>
-                <p>twitter</p>
-                <p>Insta</p>
-                <p>git hub</p>
-                <p>Notebook</p>
+                <p>
+                  <i class="fab fa-twitter"></i>
+                </p>
+                <p>
+                  <i class="fas fa-paper-plane"></i>
+                </p>
+                <p>
+                  <i class="fab fa-github"></i>
+                </p>
+                <p>
+                  <i class="fas fa-file-alt"></i>
+                </p>
               </div>
               <p>founded March 2019</p>
             </div>
@@ -60,7 +72,7 @@ const PeopleInfo = () => {
           </div>
 
           {/*middle part right  */}
-          <div className="peopleInfoMiddleLeft">
+          <div className="peopleInfoMiddleRight">
             <p> Recent Proposals</p>
             <div className="proposals">
               <p>Add Enzyme Vault for Comound</p>
@@ -100,8 +112,8 @@ const PeopleInfo = () => {
         <div className="peopleInfoBottom">
           <div className="peopleBottomLeft">
             <div className="leftTop">
-              <p>Members (23)</p>
-              <p>Twitter Followers(50)</p>
+              <h5>Members (23)</h5>
+              <h5>Twitter Followers(50)</h5>
             </div>
             <div className="leftMiddle">
               <img
@@ -110,7 +122,7 @@ const PeopleInfo = () => {
                 alt=""
               />
               <div className="leftMiddleOther">
-                <p>0x1229908209318409348109414245</p>
+                <h4>0x1229908209318409348109414245</h4>
                 <p>Since 02/13/2020</p>
               </div>
             </div>
@@ -122,24 +134,24 @@ const PeopleInfo = () => {
                 alt=""
               />
               <div className="leftMiddleOther">
-                <p>0x1229908209318409348109414245</p>
+                <h4>0x1229908209318409348109414245</h4>
                 <p>Since 02/13/2020</p>
               </div>
             </div>
           </div>
 
           <div className="peopleBottomRight">
-            <h3>Founding Member</h3>
-            <img
-              // className="img"
-              src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
-              alt=""
-            />
-            <img
-              // className="img"
-              src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
-              alt=""
-            />
+            <h5>Founding Member</h5>
+            <div>
+              <img
+                src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
+                alt=""
+              />
+              <img
+                src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
         <div className="peopleInfoButton">
@@ -159,7 +171,9 @@ const PeopleInfo = () => {
             <p>Social</p>
             <p>Grants</p>
           </h4>
-          <h4>Logo</h4>
+          <h3 className="dynamicElement glob">
+            <i class="fas fa-globe"></i>
+          </h3>
         </div>
       </div>
       {/* peopleinfo right */}

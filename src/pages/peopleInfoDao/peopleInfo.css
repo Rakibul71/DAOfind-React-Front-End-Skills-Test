@@ -1,5 +1,7 @@
 .peopleInfo {
   display: flex;
+  box-sizing: border-box;
+  font-size: 10px;
 }
 .peopleInfoMiddle {
   display: flex;
@@ -22,21 +24,25 @@
   display: flex;
   justify-content: space-between;
 }
+.Voting h4 {
+  margin-left: 5px;
+}
 .votingInfo {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #000000;
 }
 .peopleInfoLeft {
   background-color: #ffffff;
   margin-left: 20px;
   padding: 10px;
+  flex: 9;
 }
 .peopleInfoLeft h1 {
   text-align: center;
 }
 .peopleInfoRight {
   margin-left: 15px;
-  /* padding: 10px; */
 }
 
 .peopleNav {
@@ -55,13 +61,14 @@
 }
 .peopleBottomLeft {
   margin-right: 120px;
-  /* flex: 6; */
+  flex: 9;
 }
 .peopleInfoBottom {
   display: flex;
 }
 .leftTop {
   display: flex;
+  justify-content: space-around;
 }
 .leftTop p {
   margin-left: 20px;
@@ -78,7 +85,7 @@
   line-height: 5px;
 }
 .peopleBottomRight {
-  flex: auto;
+  flex: 6;
 }
 .peopleBottomRight img {
   height: 80px;
@@ -92,10 +99,4 @@
   align-items: center;
   color: #4cb8ff;
   margin-bottom: 5px;
-  /* border: 1px solid #4cb8ff; */
 }
-/* .peopleInfoLeft button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
