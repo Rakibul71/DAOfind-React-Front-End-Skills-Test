@@ -4,97 +4,22 @@ import "./LearnDao.css";
 
 const LearnDao = () => {
   return (
-    // <>
-    //   {/* learnDao left part */}
-    //   <div className="learnDao">
-    // {/* this is the 1st one */}
-
-    //       {/* this is another one */}
-    //       {/* <div className="col-md-4">
-    //         <div className="boxTop">
-    //           <p>Logo</p>
-    //           <p>The history of DAOs &The Future</p>
-    //         </div>
-    //         <div className="boxMiddle">
-    //           <p>Social</p>
-    //           <p>Article</p>
-    //         </div>
-    //         <p>curated by 0x9..95</p>
-    //       </div> */}
-
-    //       {/* this is another one */}
-    //       {/* <div className="col-md-4">
-    //         <div className="boxTop">
-    //           <p>Logo</p>
-    //           <p>The history of DAOs &The Future</p>
-    //         </div>
-    //         <div className="boxMiddle">
-    //           <p>Social</p>
-    //           <p>Article</p>
-    //         </div>
-    //         <p>curated by 0x9..95</p>
-    //       </div> */}
-
-    //       {/* this is another one */}
-    //       {/* <div className="col-md-4">
-    //         <div className="boxTop">
-    //           <p>Logo</p>
-    //           <p>The history of DAOs &The Future</p>
-    //         </div>
-    //         <div className="boxMiddle">
-    //           <p>Social</p>
-    //           <p>Article</p>
-    //         </div>
-    //         <p>curated by 0x9..95</p>
-    //       </div> */}
-
-    //       {/* this is another one */}
-    //       {/* <div className="col-md-4">
-    //         <div className="boxTop">
-    //           <p>Logo</p>
-    //           <p>The history of DAOs &The Future</p>
-    //         </div>
-    //         <div className="boxMiddle">
-    //           <p>Social</p>
-    //           <p>Article</p>
-    //         </div>
-    //         <p>curated by 0x9..95</p>
-    //       </div> */}
-
-    //       {/* this is another one */}
-    //       {/* <div className="col-md-4">
-    //         <div className="boxTop">
-    //           <p>Logo</p>
-    //           <p>The history of DAOs &The Future</p>
-    //         </div>
-    //         <div className="boxMiddle">
-    //           <p>Social</p>
-    //           <p>Article</p>
-    //         </div>
-    //         <p>curated by 0x9..95</p>
-    //       </div> */}
-    //     </div>
-
-    //   </div>
-
-    //   {/* learnDao Right Part */}
-    //   {/* <div></div> */}
-    // </>
-
     <div className="learnDao">
       {/* learn Dao left part start */}
       <div className="learnDaoLeft">
         <h1>📚 Learn DAO</h1>
-        <div className="row">
+        <div className="row learnBoxHead">
           {/* 1st box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
@@ -102,96 +27,112 @@ const LearnDao = () => {
           {/* 2nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
           {/* 3nd box */}
           <div className="col-md-3 learnBox">
             <div className="boxTop">
-              <i class="fas fa-globe"></i>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
               <p>The history of DAOs &The Future</p>
             </div>
             <div className="boxMiddle">
-              <p>Social</p>
-              <p>Article</p>
+              <p className="middleP">Social</p>
+              <p className="middleP">Article</p>
             </div>
             <p className="boxMiddleP">curated by 0x9..95</p>
           </div>
