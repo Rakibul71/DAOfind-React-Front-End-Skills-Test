@@ -16,6 +16,13 @@ const Leaderbord = () => {
   useEffect(() => {
     getUsers();
   }, []);
+
+  // load more part
+  const [noOfElement, SetNoOfElement] = useState(5);
+  const slice = users.slice(0, noOfElement);
+  const loading = () => {
+    SetNoOfElement(noOfElement + noOfElement);
+  };
   return (
     <div className="leaderBoard">
       {/* left part of leaderbord */}
@@ -28,7 +35,7 @@ const Leaderbord = () => {
           <p>Chain</p>
           <p>Category</p>
         </div>
-        {users.map((curElem) => {
+        {slice.map((curElem) => {
           return (
             <div className="dynamic">
               <img className="img dynamicElement" src={curElem.img} alt="" />
@@ -46,6 +53,9 @@ const Leaderbord = () => {
             </div>
           );
         })}
+        <div className="leaderBoardButton">
+          <button onClick={() => loading()}>Load More</button>
+        </div>
       </div>
       {/* creating a loading functionality */}
 

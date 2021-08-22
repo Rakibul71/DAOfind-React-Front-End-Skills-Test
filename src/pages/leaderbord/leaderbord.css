@@ -1,6 +1,7 @@
 .leaderBoard {
   display: flex;
   font-size: 20px;
+  box-sizing: border-box;
 }
 .leaderBoardLeft {
   background-color: #ffffff;
@@ -61,4 +62,14 @@
 .dynamic {
   display: flex;
   justify-content: space-between;
+}
+.leaderBoardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.leaderBoardButton > button {
+  border-radius: 15px;
+  padding: 5px;
 }
