@@ -13,7 +13,7 @@ const NewDao = () => {
           />
         </div>
         <div className="info">
-          <h6>PartyDAO</h6>
+          <h4>PartyDAO</h4>
           <p>$13,000,000 aum</p>
           <div className="bottom">
             <p>added 1 day ago</p>
@@ -31,7 +31,7 @@ const NewDao = () => {
           />
         </div>
         <div className="info">
-          <h6>PartyDAO</h6>
+          <h4>PartyDAO</h4>
           <p>$13,000,000 aum</p>
           <div className="bottom">
             <p>added 1 day ago</p>

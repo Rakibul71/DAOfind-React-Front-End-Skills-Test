@@ -3,15 +3,28 @@
   flex-direction: row;
   justify-content: space-around;
 }
+.btnn {
+  background-color: #96f8ab;
+  /* height: 20px; */
+  width: 70px;
+}
 .item {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #dac7c7;
+  margin: 5px;
+  width: 300px;
+  height: 120px;
 }
 .resourceLogo {
   margin-left: 30px;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 .resourceButton {
   background-color: #d4eeff;
+  font-size: 20px;
+  width: 150px;
 }
 /* #D4EEFF */

@@ -40,11 +40,15 @@ const Leaderbord = () => {
                 <p>Social</p>
                 <p>Grants</p>
               </h5>
-              <h3 className="dynamicElement">Logo</h3>
+              <h3 className="dynamicElement glob">
+                <i class="fas fa-globe"></i>
+              </h3>
             </div>
           );
         })}
       </div>
+      {/* creating a loading functionality */}
+
       {/* right part of leaderbord */}
       <div className="leaderBoardRight">
         <div className="leaderBoardNew">

@@ -1,5 +1,6 @@
 .leaderBoard {
   display: flex;
+  font-size: 20px;
 }
 .leaderBoardLeft {
   background-color: #ffffff;
@@ -7,9 +8,9 @@
   padding: 20px;
 }
 .dynamic {
-  border: 1px solid #e3e3e3;
+  border: 2px solid #e3e3e3;
   border-radius: 20px;
-  padding: 5px;
+  padding: 3px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -19,11 +20,26 @@
 }
 .dynamicElement {
   margin-right: 10px;
+  /* background-color: blue; */
+}
+.dynamicElement i {
+  /* margin-right: 10px; */
+
+  color: white;
+  border: 3px;
+  /* margin: 10px; */
+}
+.glob {
+  height: 40px;
+  width: 40px;
+  background-color: #4cb8ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .leaderBoardRight {
-  /* background-color: #ffffff; */
   margin-left: 45px;
-  /* padding: 20px; */
 }
 .leaderBoardNew {
   background-color: #ffffff;
