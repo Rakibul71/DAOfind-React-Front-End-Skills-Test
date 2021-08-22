@@ -54,6 +54,8 @@ const Leaderbord = () => {
           <Resources></Resources>
         </div>
       </div>
+
+      {/* try method */}
     </div>
   );
 };

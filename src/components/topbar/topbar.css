@@ -3,13 +3,6 @@
   padding: 20px;
   align-items: center;
 }
-.topbar input {
-  width: 830px;
-  height: 30px;
-  border-radius: 20px;
-  border: 10px;
-  margin: 15px;
-}
 .logoImage {
   width: 50px;
 }
@@ -31,12 +24,50 @@
   width: 300px;
   height: 30px;
   border-radius: 20px;
-  border: 10px;
   margin: 15px;
-  background-color: rgba(76, 184, 255, 0.5);
+  padding: 10px;
+  background-color: #4cb8ff;
   color: #ffffff;
   font-size: 25px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+}
+.wallet > p {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+/* adding extra input */
+.box {
+  width: 850px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 35px;
+  /* margin: 15px; */
+}
+
+.box > i {
+  font-size: 20px;
+
+  color: #777;
+}
+
+.box > input {
+  flex: 1;
+
+  height: 40px;
+
+  border: none;
+
+  outline: none;
+
+  font-size: 18px;
+
+  padding-left: 10px;
 }

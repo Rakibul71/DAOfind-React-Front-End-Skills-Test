@@ -11,8 +11,10 @@ const Topbar = () => {
           DAO <span className="span">Find</span>
         </h1>
       </div>
-      <i class="fas fa-search"></i>
-      <input type="text" placeholder="Search DAOs " />
+      <div className="box">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" placeholder="Search DAOs" name=""></input>
+      </div>
       <div className="wallet">
         <i class="fas fa-wallet"></i>
         <p>Connect wallet</p>
