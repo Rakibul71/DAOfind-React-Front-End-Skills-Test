@@ -1,13 +1,52 @@
+/* 
 .top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  
+  
 }
 .topInfo {
   display: flex;
+}
+.topInfo img {
+  border-radius: 50%;
 }
 .middleInfo {
   display: flex;
 }
 .bottomInfo {
+  display: flex;
+} */
+
+.daoRight {
+  margin-left: 15px;
+}
+.topSection {
+  /* display: flex; */
+  background-color: #fdfafa;
+  margin-bottom: 10px;
+}
+.topInfoSection {
+  display: flex;
+  border: 2px solid #e3e3e3;
+  border-radius: 15px;
+  padding: 3px;
+}
+.topInfoSection img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.infoSection p {
+  font-size: 15px;
+}
+
+/* middle part */
+
+.middleSection {
+  background-color: #fdfafa;
+  margin-bottom: 10px;
+}
+.middleInfo {
   display: flex;
 }

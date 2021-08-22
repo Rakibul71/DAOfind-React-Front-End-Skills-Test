@@ -206,7 +206,7 @@ const LearnDao = () => {
               <br></br>
               What isnt considered a DAO?
             </p>
-            <p>
+            <p className="learnSpan">
               asked by 0x9.95 <span> 12 replies</span>
             </p>
           </div>

@@ -1,48 +1,51 @@
 import React from "react";
 import "./daoRight.css";
+// import img2 from "../../images/image31.png";
+import img2 from "../../images/img2.png";
 
 const DaoRight = () => {
   return (
     <div className="daoRight">
-      <div className="top">
-        <h1>DAO Academy</h1>
-        <div className="topInfo">
+      <div className="topSection">
+        <h3>DAO Academy</h3>
+        <div className="topInfoSection">
           <img
             src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
             alt=""
           />
-          <div className="info">
-            <h3>Intro To Legal DAOs</h3>
+          <div className="infoSection">
+            <h5>Intro To Legal DAOs</h5>
             <p>134 enrolled, 2 month course</p>
           </div>
         </div>
         {/* new part */}
-        <div className="topInfo">
+        <div className="topInfoSection">
           <img
             src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
             alt=""
           />
-          <div className="info">
-            <h3>Intro To Legal DAOs</h3>
+          <div className="infoSection">
+            <h5>Intro To Legal DAOs</h5>
             <p>134 enrolled, 2 month course</p>
           </div>
         </div>
         {/* new part */}
-        <div className="topInfo">
+        <div className="topInfoSection">
           <img
             src="https://daolist.fyi/nextimg/https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1242184851152928769%2FwG2eTAfD_normal.jpg"
             alt=""
           />
-          <div className="info">
-            <h3>Intro To Legal DAOs</h3>
+          <div className="infoSection">
+            <h5>Intro To Legal DAOs</h5>
             <p>134 enrolled, 2 month course</p>
           </div>
         </div>
       </div>
       {/* middle part */}
-      <div className="middle">
+      <div className="middleSection">
         <h1>tvDAO</h1>
         <div className="middleInfo">
+          <img src={img2} alt="" />
           <p>History of DAOs</p>
           <div className="middleLeft">
             <p>History of DAOs</p>
