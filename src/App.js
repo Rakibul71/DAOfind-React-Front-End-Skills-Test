@@ -30,7 +30,7 @@ function App() {
       </div>
 
       {/* <Home></Home> */}
-      <LearnDao></LearnDao>
+      {/* <LearnDao></LearnDao> */}
       {/* <NewDao></NewDao> */}
       {/* <Resources></Resources> */}
       {/* <DaoRight></DaoRight> */}

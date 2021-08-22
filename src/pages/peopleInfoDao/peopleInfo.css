@@ -1,11 +1,61 @@
+.peopleInfo {
+  display: flex;
+}
+.peopleInfoMiddle {
+  display: flex;
+}
+.peopleInfoMiddleLeft {
+  margin-right: 120px;
+  flex: 9;
+}
+.proposalsLeft {
+  display: flex;
+  justify-content: space-between;
+}
+.proposalsLeft img {
+  border-radius: 50%;
+}
+.paragraph {
+  font-size: 15px;
+}
+.Voting {
+  display: flex;
+  justify-content: space-between;
+}
+.votingInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.peopleInfoLeft {
+  background-color: #ffffff;
+  margin-left: 20px;
+  padding: 10px;
+}
+.peopleInfoLeft h1 {
+  text-align: center;
+}
+.peopleInfoRight {
+  margin-left: 15px;
+  /* padding: 10px; */
+}
+
 .peopleNav {
   display: flex;
 }
 .middleLeftTop {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .middleTopSocial {
   display: flex;
+}
+.middleTopSocial p {
+  margin-right: 8px;
+}
+.peopleBottomLeft {
+  margin-right: 120px;
+  /* flex: 6; */
 }
 .peopleInfoBottom {
   display: flex;
@@ -13,6 +63,39 @@
 .leftTop {
   display: flex;
 }
+.leftTop p {
+  margin-left: 20px;
+}
 .leftMiddle {
   display: flex;
 }
+.leftMiddle img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.leftMiddleOther {
+  margin-left: 30px;
+  line-height: 5px;
+}
+.peopleBottomRight {
+  flex: auto;
+}
+.peopleBottomRight img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.peopleInfoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4cb8ff;
+  margin-bottom: 5px;
+  /* border: 1px solid #4cb8ff; */
+}
+/* .peopleInfoLeft button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

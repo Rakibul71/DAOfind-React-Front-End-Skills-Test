@@ -1,15 +1,38 @@
 .learnDao {
+  display: flex;
+  /* flex: 4; */
+}
+/* .learnDaoLeft {
   background-color: beige;
 }
-.learnDao h1 {
+.learnDaoLeft h1 {
   text-align: center;
   align-items: center;
   justify-content: center;
-  /* color: beige; */
+}
+
+ */
+.learnDaoLeft {
+  margin-left: 30px;
+  /* padding: 30px; */
+  background-color: beige;
+}
+.learnDaoLeft h1 {
+  text-align: center;
+}
+
+.learnBox {
+  border: 1px solid #e3e3e3;
+  margin: 15px;
 }
 .boxTop {
   display: flex;
 }
 .boxMiddle {
   display: flex;
+  justify-content: space-around;
+}
+.boxMiddleP {
+  display: flex;
+  justify-content: flex-end;
 }
