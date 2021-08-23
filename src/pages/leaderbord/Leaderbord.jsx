@@ -23,11 +23,27 @@ const Leaderbord = () => {
   const loading = () => {
     SetNoOfElement(noOfElement + noOfElement);
   };
+
+  // using serach
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <div className="leaderBoard">
       {/* left part of leaderbord */}
       <div className="leaderBoardLeft">
         <h1>🏆 DAO Leaderboard</h1>
+        <div className="box1">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input
+            // setSearchTerm={setSearchTerm}
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+            type="text"
+            placeholder="Search DAOs"
+            name=""
+          ></input>
+        </div>
         <div className="dynamic">
           <p>NAME A-Z</p>
           <p>AUM</p>
@@ -35,24 +51,38 @@ const Leaderbord = () => {
           <p>Chain</p>
           <p>Category</p>
         </div>
-        {slice.map((curElem) => {
-          return (
-            <div className="dynamic">
-              <img className="img dynamicElement" src={curElem.img} alt="" />
-              <h3 className="dynamicElement">{curElem.name}</h3>
-              <h3 className="dynamicElement">{curElem.aum}</h3>
-              <h3 className="dynamicElement">{curElem.twl}</h3>
-              <h3 className="dynamicElement">Ethereum</h3>
-              <h5 className="dynamicElement">
-                <p>Social</p>
-                <p>Grants</p>
-              </h5>
-              <h3 className="dynamicElement glob">
-                <i class="fas fa-globe"></i>
-              </h3>
-            </div>
-          );
-        })}
+        {slice
+          .filter((curElem) => {
+            if (searchTerm === "") {
+              return curElem;
+            } else if (
+              curElem.name.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return curElem;
+            } else if (
+              curElem.aum.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return curElem;
+            }
+          })
+          .map((curElem) => {
+            return (
+              <div className="dynamic">
+                <img className="img dynamicElement" src={curElem.img} alt="" />
+                <h3 className="dynamicElement">{curElem.name}</h3>
+                <h3 className="dynamicElement">{curElem.aum}</h3>
+                <h3 className="dynamicElement">{curElem.twl}</h3>
+                <h3 className="dynamicElement">Ethereum</h3>
+                <h5 className="dynamicElement">
+                  <p>Social</p>
+                  <p>Grants</p>
+                </h5>
+                <h3 className="dynamicElement glob">
+                  <i class="fas fa-globe"></i>
+                </h3>
+              </div>
+            );
+          })}
         <div className="leaderBoardButton">
           <button onClick={() => loading()}>Load More</button>
         </div>
